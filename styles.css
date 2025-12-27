@@ -881,25 +881,27 @@ button, a, .product-card, .brand-item, .offer-item {
 .about-content {
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 .about-content p {
     font-size: 1.125rem;
-    color: var(--text-gray);
+    color: var(--text-dark);
     line-height: 1.8;
     margin-bottom: 1.5rem;
+    text-align: left;
 }
 
-    .about-content p::first-letter {
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--primary-red);
-        float: left;
-        line-height: 1;
-        margin-right: 0.5rem;
-        margin-top: 0.2rem;
-    }
+.about-content p::first-letter {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-red);
+    float: left;
+    line-height: 0.85;
+    margin-right: 0.5rem;
+    margin-top: 0.1rem;
+    padding-right: 0.25rem;
+}
 
 /* Extra Small Devices */
 @media (max-width: 360px) {
