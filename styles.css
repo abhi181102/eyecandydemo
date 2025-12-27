@@ -890,17 +890,18 @@ button, a, .product-card, .brand-item, .offer-item {
     line-height: 1.8;
     margin-bottom: 1.5rem;
     text-align: left;
+    clear: both;
 }
 
 .about-content p::first-letter {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
     color: var(--primary-red);
     float: left;
-    line-height: 0.85;
+    line-height: 0.75;
     margin-right: 0.5rem;
-    margin-top: 0.1rem;
-    padding-right: 0.25rem;
+    margin-top: 0.15rem;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Extra Small Devices */
